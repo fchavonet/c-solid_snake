@@ -8,10 +8,15 @@
 #include <termios.h>
 #include <unistd.h>
 
+/* Game grid dimensions */
+#define COLUMNS 29
+#define ROWS 13
+
 /* Function prototypes*/
 struct termios disable_canonical(void);
 
 void print_game_title(void);
+void print_playground(void);
 
 void get_keyboard_input(int *quit);
 

@@ -17,6 +17,7 @@ int main(void)
 	while (quit == 0)
 	{
 		print_game_title();
+		print_playground();
 
 		while (quit == 0)
 		{
