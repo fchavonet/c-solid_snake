@@ -23,6 +23,9 @@
  * @y_apple: the y-coordinate of the apple's position.
  * @head: index of the snake's head in the x and y arrays.
  * @tail: index of the snake's tail in the x and y arrays.
+ * @score: the player's current score in the game.
+ * @best_score: the highest score achieved in the game.
+ * @game_over: flag indicating whether the game is over (1) or not (0).
  */
 struct game_data
 {
@@ -34,6 +37,9 @@ struct game_data
 	int y_apple;
 	int head;
 	int tail;
+	int score;
+	int best_score;
+	int game_over;
 };
 
 /* Function prototypes*/
@@ -41,6 +47,10 @@ struct termios disable_canonical(void);
 
 void print_game_title(void);
 void print_playground(void);
+void print_game_over(int score);
+
+int read_best_score(void);
+void write_best_score(int score);
 
 void generate_apple(struct game_data *data);
 void generate_snake(struct game_data *data);

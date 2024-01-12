@@ -18,6 +18,9 @@ int main(void)
 	while (quit == 0)
 	{
 		print_game_title();
+		data.best_score = read_best_score();
+		data.score = 0;
+		printf("Best score: %d\nScore: %d\n", data.best_score, data.score);
 		print_playground();
 
 		data.head = 0;
@@ -28,14 +31,18 @@ int main(void)
 		data.y_direction = 0;
 		data.x_apple = -1;
 		data.y_apple = 0;
+		data.game_over = 0;
 
-		while (quit == 0)
+		while (quit == 0 && data.game_over == 0)
 		{
 			generate_apple(&data);
 			generate_snake(&data);
 			usleep(5 * 1000000 / 60);
 			get_keyboard_input(&data.x_direction, &data.y_direction, &quit);
 		}
+
+		if (quit == 0)
+			print_game_over(data.score);
 	}
 
 	printf("\033[?25h");
