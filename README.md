@@ -90,8 +90,6 @@ gcc *.c -o solid_snake
 
 ### How to play
 
-<img width="170px" align="right" src="./resources/solid_snake.gif">
-
 1. QWERTY
     - Up: `w`.
     - Right: `d`.
@@ -105,6 +103,9 @@ gcc *.c -o solid_snake
     - Down: `s`.
     - Left: `q`.
     - Quit: `esc`.
+
+<br>
+<img width="200px" src="./resources/solid_snake.gif">
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
