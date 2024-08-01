@@ -1,4 +1,4 @@
-<img  height="50px" align="right" src="" alt="">
+<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/resources/images/logo-c.png" alt="C logo">
 
 # C - Solid Snake
 
@@ -8,15 +8,15 @@
         <summary>
 		CLICK TO ENLARGE 😇
         </summary>
-	    📝 <a href="#description">Description</a>
+	    📄 <a href="#description">Description</a>
+        <br>
+        🎓 <a href="#objectives">Objectives</a>
         <br>
         🔨 <a href="#tech-stack">Tech stack</a>
         <br>
         📂 <a href="#files-description">Files description</a>
         <br>
-        💻 <a href="#installation">Installation</a>
-        <br>
-        🔧 <a href="#whats-next">What's next ?</a>
+        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
         <br>
         ♥️ <a href="#thanks">Thanks</a>
         <br>
@@ -25,13 +25,11 @@
 
 ## 📝 <span id="description">Description</span>
 
-### Project Overview:
-
 Solid Snake is a classic C implementation of the snake game, inspired by [this ASMR programming video ](https://www.youtube.com/watch?v=cUJE10XEjrU).
 <br>
 The game features a growing snake that consumes apples while avoiding collisions with itself.
 
-### Objective and scope:
+## 🎓 <span id="objectives">Objectives</span>
 
 The objective of the project is to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal.
 <br>
@@ -42,17 +40,16 @@ The project serves as a confirmation of my C programming skills.
 ## 🔨 <span id="tech-stack">Tech stack</span>
 
 <p align="left">
-    <img src="https://img.shields.io/badge/C-a8b9cc?logo=c&logoColor=black&style=for-the-badge" alt="C badge">
-    <img src="https://img.shields.io/badge/Git-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
-    <img src="https://img.shields.io/badge/SHELL-000000?logo=powershell&logoColor=white&style=for-the-badge" alt="Shell badge">
-    <img src="https://img.shields.io/badge/UBUNTU-e95420?logo=ubuntu&logoColor=white&style=for-the-badge" alt="Ubuntu badge">
+    <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
+    <img src="https://img.shields.io/badge/SHELL SCRIPT-000000?logo=gnu-bash&logoColor=white&style=for-the-badge" alt="Shell Script badge">
 </p>
 
 ## 📂 <span id="files-description">Files description</span>
 
-| FILE                   | DESCRIPTION                                         |
+| **FILE**               | **DESCRIPTION**                                     |
 | :--------------------: | --------------------------------------------------- |
-| `README.md`            | The README file you are currently reading ;).       |
+| `resources`            | Contains the resources required for the repository. |
+| `README.md`            | The readme file you are currently reading 😉.       |
 | `best_score.c`         | Handles reading and writing the best score.         |
 | `disable_canonical.c`  | Disables canonical mode for Terminal input.         |
 | `generate_apple.c`     | Generates the apple's position in the game.         |
@@ -62,33 +59,36 @@ The project serves as a confirmation of my C programming skills.
 | `main.h`               | Header file with structure and function prototypes. |
 | `print_game_over.c`    | Prints the game over message when the game ends.    |
 | `print_game_title.c`   | Prints the game title ASCII art.                    |
-| `resources`            | Contains additional materials for the README file.  |
+| `print_playground.c`   | Prints the playground of the game.                  |
 
-## 💻 <span id="installation">Installation</span>
+## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
 
-### Clone the repository and run in a Linux Terminal
+**Instalation:**
 
-1. Clone the repository:
+1. Clone this repository:
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
+
 ```
 git clone https://github.com/fchavonet/c-solid_snake.git
 ```
 
-2. Compilation:
-    - Navigate to the project directory.
-    - Compile the source code:
+2. Open the repository you've just cloned.
+
+3. Compile the source code:
+
 ```
 gcc *.c -o solid_snake
 ```
 
-3. Run from your Terminal:
+4. Run from your Terminal:
+
 ```
 ./solid_snake
 ```
 
-### How to play
+**How to play:**
 
 1. QWERTY
     - Up: `w`.
@@ -105,7 +105,7 @@ gcc *.c -o solid_snake
     - Quit: `esc`.
 
 <br>
-<img width="200px" src="./resources/solid_snake.gif">
+<img width="200px" src="./resources/images/solid_snake.gif">
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
