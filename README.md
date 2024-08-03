@@ -31,9 +31,7 @@ The game features a growing snake that consumes apples while avoiding collisions
 
 ## 🎓 <span id="objectives">Objectives</span>
 
-The objective of the project is to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal.
-<br>
-The scope includes implementing core game mechanics, such as snake movement, apple generation, collision detection and scoring.
+The objective of the project is to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal. The scope includes implementing core game mechanics, such as snake movement, apple generation, collision detection and scoring.
 <br>
 The project serves as a confirmation of my C programming skills.
 
