@@ -1,6 +1,6 @@
 <img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/resources/images/logo-c.png" alt="C logo">
 
-# C - Solid Snake
+# Solid Snake
 
 ## 🔖 Table of contents
 
