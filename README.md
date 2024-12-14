@@ -6,9 +6,9 @@
 
 <details>
         <summary>
-		CLICK TO ENLARGE 😇
+        CLICK TO ENLARGE 😇
         </summary>
-	    📄 <a href="#description">Description</a>
+        📄 <a href="#description">Description</a>
         <br>
         🎓 <a href="#objectives">Objectives</a>
         <br>
@@ -18,6 +18,8 @@
         <br>
         💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
         <br>
+        🔧 <a href="#whats-next">What's next ?</a>
+        <br>
         ♥️ <a href="#thanks">Thanks</a>
         <br>
         👷 <a href="#authors">Authors</a>
@@ -25,13 +27,13 @@
 
 ## 📝 <span id="description">Description</span>
 
-Solid Snake is a classic C implementation of the snake game, inspired by [this ASMR programming video ](https://www.youtube.com/watch?v=cUJE10XEjrU).
+Solid Snake is a classic C implementation of the snake game, inspired by [this ASMR programming video](https://www.youtube.com/watch?v=cUJE10XEjrU).
 <br>
 The game features a growing snake that consumes apples while avoiding collisions with itself.
 
 ## 🎓 <span id="objectives">Objectives</span>
 
-The objective of the project is to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal. The scope includes implementing core game mechanics, such as snake movement, apple generation, collision detection and scoring.
+The objective of the project was to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal. This involved implementing core game's mechanisms, such as snake movement, apple generation, collision detection and scoring.
 <br>
 The project serves as a confirmation of my C programming skills.
 
@@ -40,28 +42,30 @@ The project serves as a confirmation of my C programming skills.
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
     <img src="https://img.shields.io/badge/SHELL SCRIPT-000000?logo=gnu-bash&logoColor=white&style=for-the-badge" alt="Shell Script badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
 </p>
 
 ## 📂 <span id="files-description">Files description</span>
 
 | **FILE**               | **DESCRIPTION**                                     |
 | :--------------------: | --------------------------------------------------- |
-| `resources`            | Contains the resources required for the repository. |
-| `README.md`            | The readme file you are currently reading 😉.       |
-| `best_score.c`         | Handles reading and writing the best score.         |
-| `disable_canonical.c`  | Disables canonical mode for Terminal input.         |
-| `generate_apple.c`     | Generates the apple's position in the game.         |
-| `generate_snake.c`     | Generates and moves the snake in the game.          |
-| `get_keyboard_input.c` | Gets keyboard input for controlling the snake.      |
-| `main.c`               | Entry point of the program, contains the main loop. |
+| `assets`               | Contains the resources required for the repository. |
 | `main.h`               | Header file with structure and function prototypes. |
-| `print_game_over.c`    | Prints the game over message when the game ends.    |
+| `main.c`               | Entry point of the program, contains the main loop. |
+| `disable_canonical.c`  | Disables canonical mode for Terminal input.         |
 | `print_game_title.c`   | Prints the game title ASCII art.                    |
 | `print_playground.c`   | Prints the playground of the game.                  |
+| `generate_snake.c`     | Generates and moves the snake in the game.          |
+| `get_keyboard_input.c` | Gets keyboard input for controlling the snake.      |
+| `generate_apple.c`     | Generates the apple's position in the game.         |
+| `print_game_over.c`    | Prints the game over message when the game ends.    |
+| `best_score.c`         | Handles reading and writing the best score.         |
+| `README.md`            | The readme file you are currently reading 😉.       |
 
 ## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Instalation:**
+**Installation:**
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -80,7 +84,9 @@ git clone https://github.com/fchavonet/c-solid_snake.git
 gcc *.c -o solid_snake
 ```
 
-4. Run from your Terminal:
+**How to use:**
+
+1. Run from your Terminal:
 
 ```
 ./solid_snake
@@ -103,7 +109,7 @@ gcc *.c -o solid_snake
     - Quit: `esc`.
 
 <br>
-<img width="200px" src="./resources/images/solid_snake.gif">
+<img width="200px" src="./assets/images/solid_snake.gif">
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
