@@ -108,8 +108,9 @@ gcc *.c -o solid_snake
     - Left: `q`.
     - Quit: `esc`.
 
-<br>
-<img width="200px" src="./assets/images/solid_snake.gif">
+<p align="left">
+    <img width="250px" src="./assets/images/solid_snake.gif">
+</p>
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
