@@ -128,7 +128,7 @@ gcc *.c -o solid_snake
 
 ## ♥️ <span id="thanks">Thanks</span>
 
-A big thank you to [Serene Dev](https://github.com/serene-dev) for his ASMR video and to [Holberton School](https://www.holbertonschool.com/) for providing a solid foundation in C programming.
+- A big thank you to [Serene Dev](https://github.com/serene-dev) for his ASMR video and to [Holberton School](https://www.holbertonschool.com/) for providing a solid foundation in C programming.
 
 ## 👷 <span id="authors">Authors</span>
 
