@@ -1,4 +1,4 @@
-<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/resources/images/logo-c.png" alt="C logo">
+<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-c.png" alt="C logo">
 
 # Solid Snake
 
@@ -18,7 +18,7 @@
         <br>
         💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
         <br>
-        🔧 <a href="#whats-next">What's next ?</a>
+        🔧 <a href="#whats-next">What's next?</a>
         <br>
         ♥️ <a href="#thanks">Thanks</a>
         <br>
@@ -27,15 +27,21 @@
 
 ## 📝 <span id="description">Description</span>
 
-Solid Snake is a classic C implementation of the snake game, inspired by [this ASMR programming video](https://www.youtube.com/watch?v=cUJE10XEjrU).
+Solid Snake is a classic C implementation of the snake game, inspired by this [ASMR programming video](https://www.youtube.com/watch?v=cUJE10XEjrU).
 <br>
 The game features a growing snake that consumes apples while avoiding collisions with itself.
 
 ## 🎓 <span id="objectives">Objectives</span>
 
-The objective of the project was to create a functional and enjoyable implementation of the classic snake game in C, playable in a Terminal. This involved implementing core game's mechanisms, such as snake movement, apple generation, collision detection and scoring.
-<br>
-The project serves as a confirmation of my C programming skills.
+- Developed an enjoyable implementation of the classic Snake game in C, playable in a Terminal.
+- Implemented core game mechanics, including:
+    - Snake movement.
+    - Apple generation.
+    - Snake growth upon eating an apple.
+    - Collision detection.
+    - Scoring system.
+- Ensured the code adhered to the Betty coding standard for improved readability and consistency.
+- Demonstrated and confirmed proficiency in C programming through this project.
 
 ## 🔨 <span id="tech-stack">Tech stack</span>
 
@@ -44,6 +50,8 @@ The project serves as a confirmation of my C programming skills.
     <img src="https://img.shields.io/badge/SHELL SCRIPT-000000?logo=gnu-bash&logoColor=white&style=for-the-badge" alt="Shell Script badge">
     <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
     <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
 
 ## 📂 <span id="files-description">Files description</span>
@@ -109,7 +117,7 @@ gcc *.c -o solid_snake
     - Quit: `esc`.
 
 <p align="left">
-    <img width="250px" src="./assets/images/solid_snake.gif">
+    <img width="250px" src="./assets/images/solid_snake.gif" alt="Solid Snake gif">
 </p>
 
 ## 🔧 <span id="whats-next">What's next ?</span>
