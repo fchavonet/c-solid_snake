@@ -116,6 +116,8 @@ gcc *.c -o solid_snake
     - Left: `q`.
     - Quit: `esc`.
 
+<br>
+
 <p align="left">
     <img width="250px" src="./assets/images/solid_snake.gif" alt="Solid Snake gif">
 </p>
