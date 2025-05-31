@@ -5,24 +5,24 @@
 ## 🔖 Table of contents
 
 <details>
-        <summary>
+    <summary>
         CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        🔧 <a href="#whats-next">What's next?</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    </summary>
+    📄 <a href="#description">Description</a>
+    <br>
+    🎓 <a href="#objectives">Objectives</a>
+    <br>
+    🔨 <a href="#tech-stack">Tech stack</a>
+    <br>
+    📂 <a href="#files-description">Files description</a>
+    <br>
+    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    🔧 <a href="#whats-next">What's next?</a>
+    <br>
+    ♥️ <a href="#thanks">Thanks</a>
+    <br>
+    👷 <a href="#authors">Authors</a>
 </details>
 
 ## 📝 <span id="description">Description</span>
@@ -116,6 +116,12 @@ gcc *.c -o solid_snake
     - Left: `q`.
     - Quit: `esc`.
 
+<br>
+
+<p align="left">
+    <img width="250" src="./assets/images/solid_snake.gif" alt="Solid Snake screenshot">
+</p>
+
 ## 🔧 <span id="whats-next">What's next ?</span>
 
 - Clean and optimize code.
@@ -127,4 +133,4 @@ gcc *.c -o solid_snake
 ## 👷 <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)
