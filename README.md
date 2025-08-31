@@ -1,37 +1,35 @@
-<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-c.png" alt="C logo">
-
 # Solid Snake
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    🔧 <a href="#whats-next">What's next?</a>
+    <a href="#whats-next">What's next?</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📝 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 Solid Snake is a classic C implementation of the snake game, inspired by this [ASMR programming video](https://www.youtube.com/watch?v=cUJE10XEjrU).
-<br>
+
 The game features a growing snake that consumes apples while avoiding collisions with itself.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
 - Developed an enjoyable implementation of the classic Snake game in C, playable in a Terminal.
 - Implemented core game mechanics, including:
@@ -43,7 +41,7 @@ The game features a growing snake that consumes apples while avoiding collisions
 - Ensured the code adhered to the Betty coding standard for improved readability and consistency.
 - Demonstrated and confirmed proficiency in C programming through this project.
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
@@ -54,9 +52,9 @@ The game features a growing snake that consumes apples while avoiding collisions
     <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
 
-## 📂 <span id="files-description">Files description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**               | **DESCRIPTION**                                     |
+| **FILES**              | **DESCRIPTION**                                     |
 | :--------------------: | --------------------------------------------------- |
 | `assets`               | Contains the resources required for the repository. |
 | `main.h`               | Header file with structure and function prototypes. |
@@ -69,11 +67,11 @@ The game features a growing snake that consumes apples while avoiding collisions
 | `generate_apple.c`     | Generates the apple's position in the game.         |
 | `print_game_over.c`    | Prints the game over message when the game ends.    |
 | `best_score.c`         | Handles reading and writing the best score.         |
-| `README.md`            | The readme file you are currently reading 😉.       |
+| `README.md`            | The README file you are currently reading 😉.      |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -92,7 +90,7 @@ git clone https://github.com/fchavonet/c-solid_snake.git
 gcc *.c -o solid_snake
 ```
 
-**How to use:**
+### How to use:
 
 1. Run from your Terminal:
 
@@ -100,7 +98,7 @@ gcc *.c -o solid_snake
 ./solid_snake
 ```
 
-**How to play:**
+### How to play:
 
 1. QWERTY
     - Up: `w`.
@@ -122,15 +120,15 @@ gcc *.c -o solid_snake
     <img width="250" src="./assets/images/solid_snake.gif" alt="Solid Snake screenshot">
 </p>
 
-## 🔧 <span id="whats-next">What's next ?</span>
+## <span id="whats-next">What's next ?</span>
 
 - Clean and optimize code.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
 - A big thank you to [Serene Dev](https://github.com/serene-dev) for his ASMR video and to [Holberton School](https://www.holbertonschool.com/) for providing a solid foundation in C programming.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)
