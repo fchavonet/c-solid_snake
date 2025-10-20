@@ -1,35 +1,12 @@
 # Solid Snake
 
-## Table of contents
-
-<details>
-    <summary>
-        CLICK TO ENLARGE 😇
-    </summary>
-    <a href="#description">Description</a>
-    <br>
-    <a href="#objectives">Objectives</a>
-    <br>
-    <a href="#tech-stack">Tech stack</a>
-    <br>
-    <a href="#files-description">Files description</a>
-    <br>
-    <a href="#installation_and_how_to_use">Installation and how to use</a>
-    <br>
-    <a href="#whats-next">What's next?</a>
-    <br>
-    <a href="#thanks">Thanks</a>
-    <br>
-    <a href="#authors">Authors</a>
-</details>
-
-## <span id="description">Description</span>
+## Description
 
 Solid Snake is a classic C implementation of the snake game, inspired by this [ASMR programming video](https://www.youtube.com/watch?v=cUJE10XEjrU).
 
 The game features a growing snake that consumes apples while avoiding collisions with itself.
 
-## <span id="objectives">Objectives</span>
+## Objectives
 
 - Developed an enjoyable implementation of the classic Snake game in C, playable in a Terminal.
 - Implemented core game mechanics, including:
@@ -41,20 +18,14 @@ The game features a growing snake that consumes apples while avoiding collisions
 - Ensured the code adhered to the Betty coding standard for improved readability and consistency.
 - Demonstrated and confirmed proficiency in C programming through this project.
 
-## <span id="tech-stack">Tech stack</span>
+## Tech Stack
 
-<p align="left">
-    <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
-    <img src="https://img.shields.io/badge/SHELL SCRIPT-000000?logo=gnu-bash&logoColor=white&style=for-the-badge" alt="Shell Script badge">
-    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
-    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
-    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
-    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
-</p>
+![C badge](https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge)
+![Bash badge](https://img.shields.io/badge/BASH-4eaa25?logo=gnubash&logoColor=white&style=for-the-badge)
 
-## <span id="files-description">Files description</span>
+## File Description
 
-| **FILES**              | **DESCRIPTION**                                     |
+| **FILE**               | **DESCRIPTION**                                     |
 | :--------------------: | --------------------------------------------------- |
 | `assets`               | Contains the resources required for the repository. |
 | `main.h`               | Header file with structure and function prototypes. |
@@ -67,11 +38,11 @@ The game features a growing snake that consumes apples while avoiding collisions
 | `generate_apple.c`     | Generates the apple's position in the game.         |
 | `print_game_over.c`    | Prints the game over message when the game ends.    |
 | `best_score.c`         | Handles reading and writing the best score.         |
-| `README.md`            | The README file you are currently reading 😉.      |
+| `README.md`            | The README file you are currently reading 😉.       |
 
-## <span id="installation_and_how_to_use">Installation and how to use</span>
+## Installation & Usage
 
-### Installation:
+### Installation
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -90,7 +61,9 @@ git clone https://github.com/fchavonet/c-solid_snake.git
 gcc *.c -o solid_snake
 ```
 
-### How to use:
+> You need to have `GCC` installed to compile the program.
+
+### Usage
 
 1. Run from your Terminal:
 
@@ -98,37 +71,49 @@ gcc *.c -o solid_snake
 ./solid_snake
 ```
 
-### How to play:
+<table>
+    <tr>
+        <td align="center">
+            <img width="250" src="./assets/images/solid_snake.gif" alt="Screenshot">
+    </td>
+    <td>
+      <strong>QWERTY</strong>
+      <br>
+      ⬆️ Up: <code>w</code>
+      <br>
+      ➡️ Right: <code>d</code>
+      <br>
+      ⬇️ Down: <code>s</code>
+      <br>
+      ⬅️ Left: <code>a</code>
+      <br>
+      ❌ Quit: <code>esc</code>
+      <br>
+      <br>
+      <strong>AZERTY</strong>
+      <br>
+      ⬆️ Up: <code>z</code>
+      <br>
+      ➡️ Right: <code>d</code>
+      <br>
+      ⬇️ Down: <code>s</code>
+      <br>
+      ⬅️ Left: <code>q</code>
+      <br>
+      ❌ Quit: <code>esc</code>
+    </td>
+  </tr>
+</table>
 
-1. QWERTY
-    - Up: `w`.
-    - Right: `d`.
-    - Down: `s`.
-    - Left: `a`.
-    - Quit: `esc`.
-
-2. AZERTY
-    - Up: `z`.
-    - Right: `d`.
-    - Down: `s`.
-    - Left: `q`.
-    - Quit: `esc`.
-
-<br>
-
-<p align="left">
-    <img width="250" src="./assets/images/solid_snake.gif" alt="Solid Snake screenshot">
-</p>
-
-## <span id="whats-next">What's next ?</span>
+## What's Next?
 
 - Clean and optimize code.
 
-## <span id="thanks">Thanks</span>
+## Thanks
 
 - A big thank you to [Serene Dev](https://github.com/serene-dev) for his ASMR video and to [Holberton School](https://www.holbertonschool.com/) for providing a solid foundation in C programming.
 
-## <span id="authors">Authors</span>
+## Author(s)
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)
