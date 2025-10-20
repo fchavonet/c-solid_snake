@@ -53,7 +53,7 @@ The game features a growing snake that consumes apples while avoiding collisions
 git clone https://github.com/fchavonet/c-solid_snake.git
 ```
 
-2. Open the repository you've just cloned.
+2. Open the cloned repository.
 
 3. Compile the source code:
 
