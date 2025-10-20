@@ -75,34 +75,34 @@ gcc *.c -o solid_snake
     <tr>
         <td align="center">
             <img width="250" src="./assets/images/solid_snake.gif" alt="Screenshot">
-    </td>
-    <td>
-      <strong>QWERTY</strong>
-      <br>
-      ⬆️ Up: <code>w</code>
-      <br>
-      ➡️ Right: <code>d</code>
-      <br>
-      ⬇️ Down: <code>s</code>
-      <br>
-      ⬅️ Left: <code>a</code>
-      <br>
-      ❌ Quit: <code>esc</code>
-      <br>
-      <br>
-      <strong>AZERTY</strong>
-      <br>
-      ⬆️ Up: <code>z</code>
-      <br>
-      ➡️ Right: <code>d</code>
-      <br>
-      ⬇️ Down: <code>s</code>
-      <br>
-      ⬅️ Left: <code>q</code>
-      <br>
-      ❌ Quit: <code>esc</code>
-    </td>
-  </tr>
+        </td>
+        <td>
+            strong>QWERTY</strong>
+            <br>
+            ⬆️ Up: <code>w</code>
+            <br>
+            ➡️ Right: <code>d</code>
+            <br>
+            ⬇️ Down: <code>s</code>
+            <br>
+            ⬅️ Left: <code>a</code>
+            <br>
+            ❌ Quit: <code>esc</code>
+            <br>
+            <br>
+            <strong>AZERTY</strong>
+            <br>
+            ⬆️ Up: <code>z</code>
+            <br>
+            ➡️ Right: <code>d</code>
+            <br>
+            ⬇️ Down: <code>s</code>
+            <br>
+            ⬅️ Left: <code>q</code>
+            <br>
+            ❌ Quit: <code>esc</code>
+        </td>
+    </tr>
 </table>
 
 ## What's Next?
