@@ -77,7 +77,7 @@ gcc *.c -o solid_snake
             <img width="250" src="./assets/images/solid_snake.gif" alt="Screenshot">
         </td>
         <td>
-            strong>QWERTY</strong>
+            <strong>QWERTY</strong>
             <br>
             ⬆️ Up: <code>w</code>
             <br>
