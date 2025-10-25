@@ -79,28 +79,28 @@ gcc *.c -o solid_snake
         <td>
             <strong>QWERTY</strong>
             <br>
-            ⬆️ Up: <code>w</code>
+            Up: <code>w</code>
             <br>
-            ➡️ Right: <code>d</code>
+            Right: <code>d</code>
             <br>
-            ⬇️ Down: <code>s</code>
+            Down: <code>s</code>
             <br>
-            ⬅️ Left: <code>a</code>
+            Left: <code>a</code>
             <br>
-            ❌ Quit: <code>esc</code>
+            Quit: <code>esc</code>
             <br>
             <br>
             <strong>AZERTY</strong>
             <br>
-            ⬆️ Up: <code>z</code>
+            Up: <code>z</code>
             <br>
-            ➡️ Right: <code>d</code>
+            Right: <code>d</code>
             <br>
-            ⬇️ Down: <code>s</code>
+            Down: <code>s</code>
             <br>
-            ⬅️ Left: <code>q</code>
+            Left: <code>q</code>
             <br>
-            ❌ Quit: <code>esc</code>
+            Quit: <code>esc</code>
         </td>
     </tr>
 </table>
