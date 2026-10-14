@@ -116,4 +116,7 @@ gcc *.c -o solid_snake
 ## Author(s)
 
 **Fabien CHAVONET**
-- GitHub: [@fchavonet](https://github.com/fchavonet)
+- [GitHub](https://github.com/fchavonet)
+- [itch.io](https://fchavonet.itch.io/)
+- [LinkedIn](https://www.linkedin.com/in/fchavonet/)
+- [Portfolio](https://www.fchavonet.dev)
